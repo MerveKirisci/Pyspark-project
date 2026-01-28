@@ -187,12 +187,12 @@ StringIndexer → VectorAssembler → StandardScaler → Clustering Algorithm
 
 ## Author
 
-Master's Level Research Project  
+Merve Kirişci
 January 2026
 
 ## License
 
-This project is created for academic purposes.
+This project is created for MERVE KİRİSCİ academic purposes.
 
 ## Acknowledgments
 
