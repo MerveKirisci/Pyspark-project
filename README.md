@@ -50,22 +50,6 @@ mrvpyspark/
 - Python 3.8 or higher
 - Java 8 or higher (required for PySpark)
 
-### Installation
-
-1. **Clone or navigate to the project directory**:
-   ```bash
-   cd /path/to/mrvpyspark
-   ```
-
-2. **Install Python dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Verify PySpark installation**:
-   ```bash
-   python -c "import pyspark; print(pyspark.__version__)"
-   ```
 
 ## Execution Guide
 
@@ -118,6 +102,7 @@ The script provides detailed console output including:
 - Clustering evaluation results
 - Cluster profiles with business interpretations
 - Churn analysis findings
+
 
 
 
@@ -176,14 +161,6 @@ StringIndexer → VectorAssembler → StandardScaler → Clustering Algorithm
 **Issue**: `pyspark module not found`
 - **Solution**: Ensure PySpark is installed: `pip install pyspark`
 
-**Issue**: Memory errors during execution
-- **Solution**: Increase Spark driver memory in the script:
-  ```python
-  .config("spark.driver.memory", "4g")
-  ```
-
-**Issue**: Visualizations not saving
-- **Solution**: Ensure matplotlib backend is configured correctly. The script uses non-interactive backend.
 
 ## Author
 
