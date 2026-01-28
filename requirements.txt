@@ -1,0 +1,8 @@
+Pyspark==3.5.0
+
+Pandas==2.0.3
+
+Matplotlib==3.7.2
+
+Numpy==1.24.3
+ 
